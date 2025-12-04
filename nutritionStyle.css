@@ -1,0 +1,152 @@
+/* --- Base page styling --- */
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.6;
+  color: #000000;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FAFAFA;
+}
+
+/* --- Headings --- */
+h2 {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: #FA4616;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+h2, h3 {
+  font-weight: 700; /* Rubik font bold */
+}
+
+/* --- Paragraphs --- */
+p {
+  font-family: 'Rubik', sans-serif;
+  margin: 10px 0 15px 0;
+  font-size: 1rem;
+}
+
+/* --- Lists --- */
+ul, ol {
+  margin: 10px 0 20px 40px;
+  }
+
+/* --- List items spacing --- */
+li {
+  margin-bottom: 10px;
+}
+
+#credit {
+  text-align: center;
+  display: block;  
+  margin: 0 auto;  
+  font-size: 15px;
+}
+
+#info {
+  text-align: center;              
+  background-color: #fff4e6;       
+  padding: 12px 20px;            
+  border-radius: 10px;             
+  font-size: 1.05rem;             
+  color: #000000;                    
+  max-width: 600px;               
+  margin: 20px auto;               
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+#info a {
+  color: #FA4616;                
+  text-decoration: none;           
+  font-weight: 500;                
+  transition: color 0.3s ease;
+}
+
+#info a:hover {
+  color: #e04e1d;                  
+  text-decoration: underline;      
+}
+
+/* --- Images --- */
+.nutrition-facts {
+  display: block;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 800px; 
+  height: auto;
+  border-radius: 8px;
+}
+
+/* --- Links --- */
+a {
+  color: #FA4616;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #e04e1d;
+}
+
+
+ol li {
+  font-weight: 500;
+}
+
+/* Peanut card layout */
+.peanut-card {
+  display: flex;
+  align-items: flex-start;  
+  gap: 20px;                
+  background-color: #fff7f2;
+  padding: 15px 20px;
+  border-left: 5px solid #FA4616;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 20px 0;
+  flex-wrap: wrap;          
+}
+
+
+.peanut-card img.peanut {
+  width: 250px;           
+  height: auto;           
+  border-radius: 8px;
+  flex-shrink: 0;         
+}
+
+.peanut-card .text {
+  flex: 1;                 
+}
+
+/* Nutrition cards */
+.nutrition-card {
+  background-color: #fff7f2;
+  border-left: 5px solid #FA4616;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.nutrition-card h3 {
+  margin-top: 0;
+  color: #FA4616;
+}
+
+.nutrition-card p {
+  margin: 8px 0;
+}
+
+.nutrition-card ul {
+  margin: 8px 0 8px 20px;
+}
+
+.nutrition-card li {
+  margin-bottom: 5px;
+}
+

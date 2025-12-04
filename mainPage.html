@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YWCA</title>
+  <link rel="stylesheet" href="mainStyle.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="top-bar" aria-label="Main navigation">
+    <a href="loginPage.html" class="admin-link" aria-label="Admin Login">Admin Login</a>
+    <a href="recipePage.html" class="recipe-link" aria-label="View Recipes">Recipes</a>
+    <a href="nutritionPage.html" class="nutrition-link" aria-label="Nutrition Information">Nutrition Information</a>
+  </nav>
+
+  <!-- Logo -->
+  <div class="logo-container">
+      <img src="YWCA.png" alt="YWCA Logo" class="logo">
+  </div>
+
+  <!-- YWCA Header -->
+  <header class="YWCA-header">
+    <img src="YWCAISONAMISSION.png" alt="YWCA is on a mission" class="mission">
+  </header>
+
+  <main>
+    <!-- Recipe of the Week -->
+    <section id="recipe-of-the-week" class="pdf-section" aria-labelledby="recipe-week-heading">
+      <h1 id="recipe-week-heading">Recipe of the Week</h1>
+      <div class="pdf-card">
+        <p>Check out this week’s featured recipe!</p>
+        <a href="path/to/recipe.pdf" download class="download-btn" aria-label="Download this week’s featured recipe PDF">Download PDF</a>
+      </div>
+    </section>
+
+    <!-- Recently Added Foods -->
+    <section id="recently-added-foods" class="pdf-section" aria-labelledby="recent-foods-heading">
+      <h1 id="recent-foods-heading">Recently Added Foods</h1>
+      <div class="pdf-card">
+        <p>See the latest additions to our food database.</p>
+        <a href="path/to/recently-added.pdf" download class="download-btn" aria-label="Download the recently added foods PDF">Download PDF</a>
+      </div>
+    </section>  
+
+    <!--I would add a donations portion, however there is a lot of risk involved with bank accounts, so I would consult someone who has more experience that I do.--> 
+    
+    <!--Another great idea I saw on the river bend food bank page would be adding a volunteer signup page, but I will leave that to you for how you want to approach that.-->
+
+    <!-- Info Panels -->
+    <div class="info-panels">
+      <!-- Contact Us -->
+      <section id="contact-us" aria-labelledby="contact-us-heading">
+        <h2 id="contact-us-heading">Contact Us</h2>
+        <div class="socialMedia"> 
+          <a href="https://www.facebook.com/QCYWCA" target="_blank" aria-label="Visit YWCA Quad Cities Facebook page">Facebook</a> 
+          <a href="https://www.linkedin.com/company/ywca-quad-cities" target="_blank" aria-label="Visit YWCA Quad Cities LinkedIn page">LinkedIn</a>
+          <a href="https://www.instagram.com/ywcaqc/" target="_blank" aria-label="Visit YWCA Quad Cities Instagram page">Instagram</a>
+        </div>
+      </section>
+
+      <!-- Address Panel -->
+      <div id="address-panel" class="pdf-card" aria-labelledby="address-heading">
+        <h2 id="address-heading">Address</h2>
+        <p class="address" aria-label="Street address and city">
+          1115 Mississippi Ave<br>
+          Davenport, IA 52803
+        </p>
+        <p class="directions-link">
+          <a href="https://www.google.com/maps?daddr=1115+Mississippi+Ave,+Davenport,+IA+52803" 
+             aria-label="Click to open directions to YWCA Quad Cities in Google Maps" 
+             target="_blank">
+            Click Here for Directions
+          </a>
+        </p>
+      </div>
+
+      <!-- Hours Panel -->
+      <div id="hours-panel" class="pdf-card" aria-labelledby="hours-heading">
+        <h2 id="hours-heading">Hours</h2>
+        <ul class="hours" aria-label="YWCA operating hours">
+          <li>Monday-Thursday: 9AM - 6PM</li>
+          <li>Friday: 9AM - 12PM</li>
+          <li>Saturday: Closed</li>
+          <li>Sunday: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="userAndPassword.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  </main>
+</body>
+</html>

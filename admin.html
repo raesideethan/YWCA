@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin - Edit List</title>
+  <link rel="stylesheet" href="loginAndAdminStyle.css">
+</head>
+<body>
+  <header>
+    <h2>Change Recipe of the Week</h2>
+    <button id="logoutBtn" class="small">Log out</button>
+  </header>
+
+  <main>
+    <!-- CURRENT RECIPE SECTION -->
+     <!--IMPORTANT!!! ONLY ONE IN THIS AT A TIME!-->
+    <section class="panel">
+      <h3>Upload Current Recipe of the Week (PDF - IMPORTANT, ONLY ONE HERE AT A TIME!)</h3>
+      <input type="file" id="currentRecipePdfInput" accept="application/pdf">
+      <button id="uploadCurrentRecipePdfBtn">Upload PDF</button>
+      <div id="currentRecipePdfPreview"></div>
+    </section>
+
+    <!-- RECENTLY ADDED FOODS SECTION -->
+    <!--IMPORTANT!!! ONLY ONE IN THIS AT A TIME!-->
+    <section class="panel">
+      <h3>Upload Recently Added Foods (PDF - IMPORTANT, ONLY ONE HERE AT A TIME!)</h3>
+      <input type="file" id="recentlyAddedFoodsInput" accept="application/pdf">
+      <button id="uploadRecentlyAddedFoodsPdfBtn">Upload PDF</button>
+      <div id="recentlyAddedFoodsPreview"></div>
+    </section>
+
+    <!-- OLD RECIPES SECTION -->
+    <section class="panel">
+      <h3>Upload Old Recipes (PDF - as many as you want)</h3>
+      <input type="file" id="pdfInput" accept="application/pdf">
+      <button id="uploadPdfBtn">Upload PDF</button>
+      <button id="deletePdfBtn" style="display:none;">Delete ALL PDFs</button>
+      <div id="pdfPreview"></div>
+    </section>
+  </main>
+
+  <script src="userAndPassword.js"></script>
+</body>
+</html>

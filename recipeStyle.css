@@ -1,0 +1,56 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  font-weight: 550;
+}
+
+main {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-box {
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #CCCCCC;
+}
+
+.pdf-link {
+  font-family: 'Rubik', sans-serif;
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #FA4616;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.pdf-link:hover {
+  background-color: #e04e1d;
+  transform: translateY(-2px);
+}
+
+.pdf-link:active {
+  transform: translateY(1px);
+}
+
+#all-recipes {
+  font-family: 'Rubik', sans-serif;
+  padding-left: 25px; 
+  color: #FA4616;
+}

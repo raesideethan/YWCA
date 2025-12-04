@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="stylesheet" href = "recipeStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <main>
+    <h2 id="all-recipes">All Recipes</h2>
+ 
+    <input type="text" id="searchInput" placeholder="Search recipes..." aria-label="Search recipes" class="search-box">
+    <div id="pdfContainer">
+      
+      <p class="muted">No PDF uploaded yet.</p>
+    </div>
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', renderPdf);
+  </script>
+
+
+
+<script src = "userAndPassword.js"></script>
+</body>
+</html>
